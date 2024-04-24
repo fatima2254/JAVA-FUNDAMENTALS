@@ -4,6 +4,9 @@ import org.testng.annotations.Test;
 
 import java.util.*;
 
+/**
+ * <Official oracle documentation = https://docs.oracle.com/javase/tutorial/java/generics/index.html>
+ */
 public class Generics {
 
     @Test
