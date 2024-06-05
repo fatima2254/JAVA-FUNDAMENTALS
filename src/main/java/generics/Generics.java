@@ -16,6 +16,10 @@ public class Generics {
 //        stringGeneric.add('char');
 //        stringGeneric.add(123);
         List<Integer> intGenerics = new ArrayList<>();
+//        List<int> nowAllowedGeneric;
+//        List<double> but we can use List<Double>;
+//        List<float> but we can use List<Float>;
+//        List<boolean> but we can use List<Boolean>;
         intGenerics.add(123);
         intGenerics.add(Integer.valueOf(123));
 //        intGenerics.add(123.4);
@@ -23,6 +27,7 @@ public class Generics {
 
         noGenerics.add("asda");
         noGenerics.add(891);
+        noGenerics.add(false);
 
         System.out.println(noGenerics.get(1) instanceof Integer);
 
@@ -42,8 +47,8 @@ public class Generics {
         ClassWithGeneric<String> stringGenericClass = new ClassWithGeneric<>();
         stringGenericClass.set("Valid value");
         System.out.println(stringGenericClass.get());
-//        stringGenericClass.set(1);
-
+//        stringGenericClass.set(132131231);
+        Map<Object, Object> map = new TreeMap<>();
         ClassWithGeneric<Boolean> booleanClassWithGeneric = new ClassWithGeneric<>();
         booleanClassWithGeneric.set(true);
         System.out.println(booleanClassWithGeneric.get());
