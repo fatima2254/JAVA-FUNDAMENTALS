@@ -1,9 +1,11 @@
+package homework;
+
 public class Collections {
 
     /**
      * Exercise #1
      *
-     * Create class Student with fileds:
+     * Create class Student with fields:
      * 1. Name
      * 2. Grade
      * 3. Age
